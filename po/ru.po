@@ -1,0 +1,2713 @@
+# Russian Gaphor Translation
+msgid ""
+msgstr ""
+"Project-Id-Version: Gaphor 0.13.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-06-30 21:22+0200\n"
+"PO-Revision-Date: 2023-01-30 01:18+0000\n"
+"Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
+"Language: ru\n"
+"Language-Team: Russian "
+"<https://hosted.weblate.org/projects/gaphor/gaphor/ru/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: gaphor/C4Model/modelinglanguage.py:15 gaphor/C4Model/toolbox.py:55
+#: gaphor/ui/greeter.py:55
+msgid "C4 Model"
+msgstr "Модель C4"
+
+#: gaphor/C4Model/propertypages.ui:11 gaphor/diagram/propertypages.ui:137
+msgid "Description"
+msgstr "Описание"
+
+#: gaphor/C4Model/propertypages.ui:38 gaphor/templates/sysml.gaphor
+msgid "Technology"
+msgstr "Технология"
+
+#: gaphor/C4Model/toolbox.py:29
+msgid "New Software System"
+msgstr "Новая Программная Система"
+
+#: gaphor/C4Model/toolbox.py:36
+msgid "New Container"
+msgstr "Новый контейнер"
+
+#: gaphor/C4Model/toolbox.py:43
+msgid "Database"
+msgstr "База данных"
+
+#: gaphor/C4Model/toolbox.py:44
+msgid "New Database"
+msgstr "Новая База данных"
+
+#: gaphor/C4Model/toolbox.py:51
+msgid "New Component"
+msgstr "Новый Компонент"
+
+#: gaphor/C4Model/toolbox.py:59 gaphor/C4Model/toolbox.py:65
+msgid "Person"
+msgstr "Человек"
+
+#: gaphor/C4Model/toolbox.py:71
+msgid "Software System"
+msgstr "Программная Система"
+
+#: gaphor/C4Model/toolbox.py:83
+msgid "Container"
+msgstr "Контейнер"
+
+#: gaphor/C4Model/toolbox.py:95
+msgid "Container: Database"
+msgstr "Контейнер: База данных"
+
+#: gaphor/C4Model/toolbox.py:107 gaphor/UML/classes/classestoolbox.py:59
+msgid "Component"
+msgstr "Компонент"
+
+#: gaphor/C4Model/toolbox.py:119 gaphor/RAAML/fta/ftatoolbox.py:16
+#: gaphor/UML/classes/classestoolbox.py:105
+#: gaphor/UML/classes/propertypages.ui:500
+msgid "Dependency"
+msgstr "Зависимость"
+
+#: gaphor/C4Model/toolbox.py:139
+msgid "New C4 Diagram"
+msgstr "Новая Диаграмма C4"
+
+#: gaphor/C4Model/toolbox.py:140 gaphor/UML/toolbox.py:30
+msgid "New Class Diagram"
+msgstr "Новая Диаграмма Классов"
+
+#: gaphor/C4Model/toolbox.py:141 gaphor/SysML/toolbox.py:72
+#: gaphor/UML/toolbox.py:34
+msgid "New Activity Diagram"
+msgstr "Новая Диаграмма Деятельности"
+
+#: gaphor/C4Model/toolbox.py:142 gaphor/SysML/toolbox.py:73
+#: gaphor/UML/toolbox.py:35
+msgid "New Sequence Diagram"
+msgstr "Новая Диаграмма Последовательности"
+
+#: gaphor/C4Model/toolbox.py:143 gaphor/SysML/toolbox.py:74
+#: gaphor/UML/toolbox.py:37
+msgid "New State Machine Diagram"
+msgstr "Новая Диаграмма Состояний"
+
+#: gaphor/RAAML/modelinglanguage.py:16 gaphor/ui/greeter.py:48
+msgid "RAAML"
+msgstr "RAAML"
+
+#: gaphor/RAAML/toolbox.py:19
+msgid "New FTA Diagram"
+msgstr "Новая Диаграмма FTA"
+
+#: gaphor/RAAML/toolbox.py:20
+msgid "New STPA Diagram"
+msgstr "Новая Диаграмма STPA"
+
+#: gaphor/RAAML/fta/andgate.py:37 gaphor/RAAML/fta/ftatoolbox.py:24
+msgid "AND Gate"
+msgstr "Элемент И"
+
+#: gaphor/RAAML/fta/basicevent.py:35 gaphor/RAAML/fta/ftatoolbox.py:125
+#: gaphor/RAAML/fta/ftatoolbox.py:131
+msgid "Basic Event"
+msgstr "Обычное Событие"
+
+#: gaphor/RAAML/fta/conditionalevent.py:32 gaphor/RAAML/fta/ftatoolbox.py:136
+#: gaphor/RAAML/fta/ftatoolbox.py:143
+msgid "Conditional Event"
+msgstr "Условное Событие"
+
+#: gaphor/RAAML/fta/dormantevent.py:35 gaphor/RAAML/fta/ftatoolbox.py:162
+#: gaphor/RAAML/fta/ftatoolbox.py:168
+msgid "Dormant Event"
+msgstr "Спящее Событие"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:12 gaphor/templates/raaml.gaphor
+msgid "Fault Tree Analysis"
+msgstr "Анализ Дерева Отказов"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:30
+msgid "AND"
+msgstr "И"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:35 gaphor/RAAML/fta/orgate.py:37
+msgid "OR Gate"
+msgstr "Элемент ИЛИ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:41 gaphor/templates/raaml.gaphor
+msgid "OR"
+msgstr "ИЛИ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:46 gaphor/RAAML/fta/notgate.py:35
+msgid "NOT Gate"
+msgstr "Элемент НЕ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:52
+msgid "NOT"
+msgstr "НЕ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:57
+msgid "Sequence Enforcing (SEQ) Gate"
+msgstr "Последовательный Элемент"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:63
+msgid "SEQ"
+msgstr "Последовательный"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:68
+msgid "Exclusive OR Gate"
+msgstr "Элемент Исключающее ИЛИ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:74
+msgid "XOR"
+msgstr "ИскИЛИ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:79 gaphor/RAAML/fta/ftatoolbox.py:86
+#: gaphor/RAAML/fta/majorityvotegate.py:39
+msgid "Majority Vote Gate"
+msgstr "Элемент Большинства Голосов"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:92 gaphor/RAAML/fta/ftatoolbox.py:98
+#: gaphor/RAAML/fta/inhibitgate.py:35
+msgid "Inhibit Gate"
+msgstr "Блокирующий Элемент"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:103 gaphor/RAAML/fta/ftatoolbox.py:109
+#: gaphor/RAAML/fta/transferin.py:35
+msgid "Transfer In"
+msgstr "Вход"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:114 gaphor/RAAML/fta/ftatoolbox.py:120
+#: gaphor/RAAML/fta/transferout.py:36
+msgid "Transfer Out"
+msgstr "Выход"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:149 gaphor/RAAML/fta/ftatoolbox.py:156
+#: gaphor/RAAML/fta/undevelopedevent.py:35
+msgid "Undeveloped Event"
+msgstr "Неразработанное Событие"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:173 gaphor/RAAML/fta/ftatoolbox.py:179
+#: gaphor/RAAML/fta/houseevent.py:35
+msgid "House Event"
+msgstr "Внешнее Событие"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:184 gaphor/RAAML/fta/ftatoolbox.py:190
+#: gaphor/RAAML/fta/zeroevent.py:36
+msgid "Zero Event"
+msgstr "Нулевое Событие"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:195 gaphor/RAAML/fta/ftatoolbox.py:201
+#: gaphor/RAAML/fta/topevent.py:32
+msgid "Top Event"
+msgstr "Верхнее Событие"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:206 gaphor/RAAML/fta/ftatoolbox.py:213
+#: gaphor/RAAML/fta/intermediateevent.py:32
+msgid "Intermediate Event"
+msgstr "Промежуточное Событие"
+
+#: gaphor/RAAML/fta/seqgate.py:36
+msgid "Sequence Enforcing Gate"
+msgstr "Последовательный Элемент"
+
+#: gaphor/RAAML/fta/xorgate.py:36
+msgid "XOR Gate"
+msgstr "Элемент ИскИЛИ"
+
+#: gaphor/RAAML/stpa/controlaction.py:32 gaphor/RAAML/stpa/stpatoolbox.py:158
+msgid "Control Action"
+msgstr "Управляющее Действие"
+
+#: gaphor/RAAML/stpa/operationalsituation.py:33
+#: gaphor/RAAML/stpa/stpatoolbox.py:127
+msgid "Operational Situation"
+msgstr "Оперативная Обстановка"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:17 gaphor/RAAML/stpa/stpatoolbox.py:43
+#: gaphor/templates/raaml.gaphor
+msgid "Loss"
+msgstr "Потеря"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:22 gaphor/RAAML/stpa/stpatoolbox.py:52
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard"
+msgstr "Опасность"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:27 gaphor/RAAML/stpa/stpatoolbox.py:116
+#: gaphor/templates/raaml.gaphor
+msgid "Abstract Operational Situation"
+msgstr "Абстрактная Оперативная Обстановка"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:35 gaphor/SysML/blocks/blockstoolbox.py:77
+#: gaphor/UML/classes/classestoolbox.py:113
+msgid "Generalization"
+msgstr "Обобщение"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:61 gaphor/SysML/blocks/block.py:65
+msgid "Situation"
+msgstr "Ситуация"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:72
+msgid "Control Structure"
+msgstr "Структура Управления"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:83 gaphor/templates/sysml.gaphor
+msgid "Controller"
+msgstr "Контроллер"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:94 gaphor/templates/sysml.gaphor
+msgid "Actuator"
+msgstr "Привод"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:105
+msgid "Controlled Process"
+msgstr "Контролируемый Процесс"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:138
+#: gaphor/RAAML/stpa/unsafecontrolaction.py:32
+msgid "Unsafe Control Action"
+msgstr "Небезопасное Действие Управления"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:149
+msgid "Relevant To"
+msgstr "Относится К"
+
+#: gaphor/SysML/modelinglanguage.py:16 gaphor/ui/greeter.py:41
+msgid "SysML"
+msgstr "SysML"
+
+#: gaphor/SysML/propertypages.ui:9
+msgid "Item Flow"
+msgstr "Поток Элементов"
+
+#: gaphor/SysML/propertypages.ui:22
+#, fuzzy
+msgid "Enable Item Flow"
+msgstr "Поток Элементов"
+
+#: gaphor/SysML/propertypages.ui:36
+msgid "Item Property"
+msgstr "Свойство Элемента"
+
+#: gaphor/SysML/propertypages.ui:51 gaphor/UML/classes/propertypages.ui:21
+msgid "Invert direction"
+msgstr "Инвертировать направление"
+
+#: gaphor/SysML/propertypages.ui:67 gaphor/UML/actions/propertypages.ui:205
+msgid "Allocated Type"
+msgstr "Выделенный Тип"
+
+#: gaphor/SysML/propertypages.ui:93
+msgid "Compartments"
+msgstr "Отделения"
+
+#: gaphor/SysML/propertypages.ui:106
+msgid "Show Parts"
+msgstr "Показывать Части"
+
+#: gaphor/SysML/propertypages.ui:122
+msgid "Show References"
+msgstr "Показать Ссылки"
+
+#: gaphor/SysML/propertypages.ui:138
+msgid "Show Values"
+msgstr "Показать Значения"
+
+#: gaphor/SysML/propertypages.ui:164
+msgid "Aggregation"
+msgstr "Агрегация"
+
+#: gaphor/SysML/propertypages.ui:176 gaphor/UML/classes/propertypages.ui:116
+#: gaphor/UML/classes/propertypages.ui:251
+msgid "No aggregation"
+msgstr "Без агрегации"
+
+#: gaphor/SysML/propertypages.ui:177 gaphor/UML/classes/propertypages.ui:117
+#: gaphor/UML/classes/propertypages.ui:252
+msgid "Shared"
+msgstr "Совместный"
+
+#: gaphor/SysML/propertypages.ui:178 gaphor/UML/classes/propertypages.ui:118
+#: gaphor/UML/classes/propertypages.ui:253
+msgid "Composite"
+msgstr "Составной"
+
+#: gaphor/SysML/propertypages.ui:187
+#, fuzzy
+msgid "Type"
+msgstr "Стиль"
+
+#: gaphor/SysML/propertypages.ui:210
+msgid "Id"
+msgstr "Идентификатор"
+
+#: gaphor/SysML/propertypages.ui:224
+msgid "Text"
+msgstr "Текст"
+
+#: gaphor/SysML/toolbox.py:25
+msgid "Internal Blocks"
+msgstr "Внутренние Блоки"
+
+#: gaphor/SysML/toolbox.py:29
+msgid "Connector"
+msgstr "Соединитель"
+
+#: gaphor/SysML/toolbox.py:36
+msgid "Property"
+msgstr "Свойство"
+
+#: gaphor/SysML/toolbox.py:45
+msgid "Proxy Port"
+msgstr "Порт Прокси"
+
+#: gaphor/SysML/toolbox.py:68
+msgid "New Block Definition Diagram"
+msgstr "Новая Диаграмма Определения Блоков"
+
+#: gaphor/SysML/toolbox.py:69
+msgid "New Internal Block Diagram"
+msgstr "Новая Внутренняя Блок-схема"
+
+#: gaphor/SysML/toolbox.py:70 gaphor/UML/toolbox.py:31
+msgid "New Package Diagram"
+msgstr "Новая Диаграмма Пакетов"
+
+#: gaphor/SysML/toolbox.py:71
+msgid "New Requirement Diagram"
+msgstr "Новая Диаграмма Требований"
+
+#: gaphor/SysML/toolbox.py:75 gaphor/UML/toolbox.py:38
+msgid "New Use Case Diagram"
+msgstr "Новая Диаграмма Прецедентов"
+
+#: gaphor/SysML/blocks/block.py:67
+msgid "ControlStructure"
+msgstr "СтруктураУправления"
+
+#: gaphor/SysML/blocks/block.py:69
+msgid "block"
+msgstr "блок"
+
+#: gaphor/SysML/blocks/block.py:105
+msgid "parts"
+msgstr "части"
+
+#: gaphor/SysML/blocks/block.py:116
+msgid "references"
+msgstr "ссылки"
+
+#: gaphor/SysML/blocks/block.py:127
+msgid "values"
+msgstr "значения"
+
+#: gaphor/SysML/blocks/block.py:145
+#, fuzzy
+msgid "operations"
+msgstr "Методы"
+
+#: gaphor/SysML/blocks/block.py:160 gaphor/SysML/blocks/block.py:186
+msgid "unnamed"
+msgstr "безымянный"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:24
+msgid "Blocks"
+msgstr "Блоки"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:28
+msgid "Block"
+msgstr "Блок"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:38
+#: gaphor/UML/classes/classestoolbox.py:47
+msgid "Package"
+msgstr "Пакет"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:50
+#: gaphor/UML/classes/classestoolbox.py:78
+msgid "Composite Association"
+msgstr "Составная Ассоциация"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:60
+#: gaphor/UML/classes/classestoolbox.py:88
+msgid "Shared Association"
+msgstr "Общая Ассоциация"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:70
+#: gaphor/UML/classes/classestoolbox.py:98
+#: gaphor/UML/usecases/usecasetoolbox.py:40
+msgid "Association"
+msgstr "Ассоциация"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:84
+msgid "ValueType"
+msgstr "ТипЗначения"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:95
+#: gaphor/UML/classes/classestoolbox.py:140
+msgid "Enumeration"
+msgstr "Перечисление"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:107
+#: gaphor/UML/classes/classestoolbox.py:152
+msgid "Primitive"
+msgstr "Примитив"
+
+#: gaphor/SysML/blocks/proxyport.py:35
+msgid "proxy"
+msgstr "прокси"
+
+#: gaphor/SysML/requirements/relationships.py:36
+msgid "satisfy"
+msgstr "удовлетворяет"
+
+#: gaphor/SysML/requirements/relationships.py:47
+msgid "deriveReqt"
+msgstr "выводитТребов"
+
+#: gaphor/SysML/requirements/relationships.py:54
+msgid "trace"
+msgstr "отслеживает"
+
+#: gaphor/SysML/requirements/relationships.py:63
+msgid "verify"
+msgstr "проверяет"
+
+#: gaphor/SysML/requirements/relationships.py:72
+msgid "refine"
+msgstr "очищает"
+
+#: gaphor/SysML/requirements/requirement.py:61
+msgid "requirement"
+msgstr "требование"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:13
+#: gaphor/templates/sysml.gaphor
+msgid "Requirements"
+msgstr "Требования"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:17
+msgid "Requirement"
+msgstr "Требование"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:29
+msgid "Satisfy"
+msgstr "Удовлетворить"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:36
+msgid "Derive Requirement"
+msgstr "Вывести Требование"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:43
+msgid "Trace"
+msgstr "Отслеживать"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:50
+msgid "Refine"
+msgstr "Очистить"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:57
+msgid "Verify"
+msgstr "Проверить"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:64
+#: gaphor/UML/classes/classestoolbox.py:71
+msgid "Containment"
+msgstr "Сдерживание"
+
+#: gaphor/UML/modelinglanguage.py:16 gaphor/ui/greeter.py:34
+msgid "UML"
+msgstr "UML"
+
+#: gaphor/UML/sanitizerservice.py:71
+msgid ""
+"Removed unused elements from the model: they are not used in any other "
+"diagram."
+msgstr ""
+"Удалены неиспользуемые элементы из модели: они не используются ни в одной"
+" другой диаграмме."
+
+#: gaphor/UML/toolbox.py:32
+msgid "New Component Diagram"
+msgstr "Новая Диаграмма Компонентов"
+
+#: gaphor/UML/toolbox.py:33
+msgid "New Deployment Diagram"
+msgstr "Новая Диаграмма Развёртывания"
+
+#: gaphor/UML/toolbox.py:36
+msgid "New Communication Diagram"
+msgstr "Новая Диаграмма Коммуникации"
+
+#: gaphor/UML/toolbox.py:39
+msgid "New Profile Diagram"
+msgstr "Новая Диаграмма Профилей"
+
+#: gaphor/UML/actions/actionstoolbox.py:17
+#: gaphor/UML/interactions/interactionstoolbox.py:16
+#: gaphor/UML/states/statestoolbox.py:27 gaphor/UML/toolboxconfig.py:5
+msgid "New {name}"
+msgstr "Новый {name}"
+
+#: gaphor/UML/umlfmt.py:203
+msgid "general: {name}"
+msgstr "общее: {name}"
+
+#: gaphor/UML/umlfmt.py:208
+msgid "supplier: {name}"
+msgstr "поставщик: {name}"
+
+#: gaphor/UML/umlfmt.py:215
+msgid "extend: {name}"
+msgstr "расширение: {name}"
+
+#: gaphor/UML/umlfmt.py:222
+msgid "include: {name}"
+msgstr "включение: {name}"
+
+#: gaphor/UML/actions/actionstoolbox.py:40
+#: gaphor/UML/actions/actionstoolbox.py:62 gaphor/templates/sysml.gaphor
+#: gaphor/templates/uml.gaphor
+msgid "Activity"
+msgstr "Деятельность"
+
+#: gaphor/UML/actions/actionstoolbox.py:48
+msgid "Swimlane One"
+msgstr "Первая Дорожка"
+
+#: gaphor/UML/actions/actionstoolbox.py:52
+msgid "Swimlane Two"
+msgstr "Вторая Дорожка"
+
+#: gaphor/UML/actions/actionstoolbox.py:58
+msgid "Actions"
+msgstr "Действия"
+
+#: gaphor/UML/actions/actionstoolbox.py:74
+#: gaphor/UML/actions/actionstoolbox.py:80
+msgid "Action"
+msgstr "Действие"
+
+#: gaphor/UML/actions/actionstoolbox.py:86
+msgid "Initial node"
+msgstr "Начальный узел"
+
+#: gaphor/UML/actions/actionstoolbox.py:98
+msgid "Activity final node"
+msgstr "Финальный узел деятельности"
+
+#: gaphor/UML/actions/actionstoolbox.py:110
+msgid "Flow final node"
+msgstr "Узел завершения потока"
+
+#: gaphor/UML/actions/actionstoolbox.py:122
+msgid "Decision/merge node"
+msgstr "Узел принятия решения или узел слияния"
+
+#: gaphor/UML/actions/actionstoolbox.py:134
+msgid "Fork/join node"
+msgstr "Узел раздвоения/слияния"
+
+#: gaphor/UML/actions/actionstoolbox.py:146
+#: gaphor/UML/actions/actionstoolbox.py:152
+msgid "Object node"
+msgstr "Узел данных"
+
+#: gaphor/UML/actions/actionstoolbox.py:158
+msgid "Swimlane"
+msgstr "Дорожка"
+
+#: gaphor/UML/actions/actionstoolbox.py:170
+msgid "Control flow"
+msgstr "Поток управления"
+
+#: gaphor/UML/actions/actionstoolbox.py:177
+msgid "Object flow"
+msgstr "Поток объектов"
+
+#: gaphor/UML/actions/actionstoolbox.py:184
+msgid "Send signal action"
+msgstr "Действие отправки сигнала"
+
+#: gaphor/UML/actions/actionstoolbox.py:190
+msgid "Send signal"
+msgstr "Отправить сигнал"
+
+#: gaphor/UML/actions/actionstoolbox.py:196
+msgid "Accept event action"
+msgstr "Действие принятия события"
+
+#: gaphor/UML/actions/actionstoolbox.py:202
+msgid "Accept event"
+msgstr "Принять событие"
+
+#: gaphor/UML/actions/actionstoolbox.py:208
+msgid "Input pin"
+msgstr "Входной контакт"
+
+#: gaphor/UML/actions/actionstoolbox.py:215
+msgid "Output pin"
+msgstr "Выходной контакт"
+
+#: gaphor/UML/actions/activitynodes.py:189
+msgid "merge/decision"
+msgstr "слияние/решение"
+
+#: gaphor/UML/actions/activitynodes.py:191
+msgid "merge"
+msgstr "слияние"
+
+#: gaphor/UML/actions/activitynodes.py:193
+msgid "decision"
+msgstr "решение"
+
+#: gaphor/UML/actions/objectnode.py:14 gaphor/UML/actions/propertypages.ui:165
+msgid "unordered"
+msgstr "неупорядоченно"
+
+#: gaphor/UML/actions/objectnode.py:15 gaphor/UML/actions/propertypages.ui:166
+msgid "ordered"
+msgstr "упорядоченно"
+
+#: gaphor/UML/actions/objectnode.py:16
+msgid "LIFO"
+msgstr "LIFO"
+
+#: gaphor/UML/actions/objectnode.py:17
+msgid "FIFO"
+msgstr "FIFO"
+
+#: gaphor/UML/actions/partitionpage.py:114
+msgid "New Swimlane"
+msgstr "Новая Дорожка"
+
+#: gaphor/UML/actions/pin.py:58
+msgid "input pin"
+msgstr "входной контакт"
+
+#: gaphor/UML/actions/pin.py:64
+msgid "output pin"
+msgstr "выходной контакт"
+
+#: gaphor/UML/actions/propertypages.ui:11
+msgid "Show type"
+msgstr "Показывать тип"
+
+#: gaphor/UML/actions/propertypages.ui:37
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: gaphor/UML/actions/propertypages.ui:59
+msgid "Join Specification"
+msgstr "Присоединиться к Спецификации"
+
+#: gaphor/UML/actions/propertypages.ui:89
+msgid "Swimlanes"
+msgstr "Дорожки"
+
+#: gaphor/UML/actions/propertypages.ui:100
+msgid "Partitions"
+msgstr "Разделы"
+
+#: gaphor/UML/actions/propertypages.ui:130
+msgid "Upper Bound"
+msgstr "Верхняя Граница"
+
+#: gaphor/UML/actions/propertypages.ui:147
+msgid "Show Ordering"
+msgstr "Показывать Порядок"
+
+#: gaphor/UML/actions/propertypages.ui:167
+msgid "Last In First Out (LIFO)"
+msgstr "Последним пришёл — первым ушёл (LIFO)"
+
+#: gaphor/UML/actions/propertypages.ui:168
+msgid "First In First Out (FIFO)"
+msgstr "Первым пришёл — первым ушёл (FIFO)"
+
+#: gaphor/UML/actions/propertypages.ui:193
+#: gaphor/UML/profiles/propertypages.ui:9 gaphor/diagram/propertypages.ui:36
+msgid "Name"
+msgstr "Имя"
+
+#: gaphor/UML/actions/propertypages.ui:228
+#: gaphor/UML/states/propertypages.ui:65
+msgid "Guard"
+msgstr "Защита"
+
+#: gaphor/UML/actions/propertypages.ui:250
+msgid "Parameter Nodes"
+msgstr "Узлы Параметров"
+
+#: gaphor/UML/actions/propertypages.ui:272
+#: gaphor/UML/classes/propertypages.ui:67
+#: gaphor/UML/classes/propertypages.ui:202
+#: gaphor/UML/classes/propertypages.ui:402
+#: gaphor/UML/classes/propertypages.ui:637
+#: gaphor/UML/classes/propertypages.ui:745
+msgid "🛈 Help"
+msgstr "🛈 Справка"
+
+#: gaphor/UML/actions/propertypages.ui:288
+msgid ""
+"Add and edit class activity according to UML syntax.\n"
+"\n"
+"  • <tt>attr</tt> (name, defaults to public visibility)\n"
+"  • <tt>+ attr: int</tt> (public with type)\n"
+"  • <tt>+ attr: int[0..1]</tt> (public, type, and multiplicity)\n"
+"  • <tt>+ attr: int | bool</tt> (public, union type)\n"
+"  • <tt># /attr: int # a note</tt> (protected, derived, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Добавляйте и изменяйте деятельность класса в соответствии с синтаксисом "
+"UML.\n"
+"\n"
+"  • <tt>атрибут</tt> (имя, по умолчанию публичная видимость)\n"
+"  • <tt>+ атрибут: тип</tt> (публичный с типом)\n"
+"  • <tt>+ атрибут: тип[0..1]</tt> (публичный, тип, множественность)\n"
+"  • <tt>+ атрибут: тип | bool</tt> (публичный, тип - объединение)\n"
+"  • <tt># /атрибут: тип # пометка</tt> (защищённый, производный, с "
+"пометкой)\n"
+"\n"
+"Нажмите <b>Enter</b> для редактирования, <b>Backspace</b>/<b>Delete</b> "
+"для удаления элементов.\n"
+"Используйте <b>-</b>/<b>=</b> для перемещения элементов вверх и вниз."
+
+#: gaphor/UML/classes/classespropertypages.py:308
+#: gaphor/UML/classes/classespropertypages.py:392
+#: gaphor/UML/classes/propertypages.ui:810
+msgid "Static"
+msgstr "Статический"
+
+#: gaphor/UML/classes/classespropertypages.py:392
+#: gaphor/UML/classes/propertypages.ui:449
+#: gaphor/UML/classes/propertypages.ui:806
+msgid "Abstract"
+msgstr "Абстрактный"
+
+#: gaphor/UML/classes/classestoolbox.py:21
+msgid "Classes"
+msgstr "Классы"
+
+#: gaphor/UML/classes/classestoolbox.py:25
+#: gaphor/UML/profiles/profilestoolbox.py:14
+msgid "Class"
+msgstr "Класс"
+
+#: gaphor/UML/classes/classestoolbox.py:35
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: gaphor/UML/classes/classestoolbox.py:121
+msgid "Interface Realization"
+msgstr "Реализация Интерфейса"
+
+#: gaphor/UML/classes/classestoolbox.py:128
+msgid "DataType"
+msgstr "ТипДанных"
+
+#: gaphor/UML/classes/datatype.py:56
+msgid "primitive"
+msgstr "примитив"
+
+#: gaphor/UML/classes/datatype.py:58 gaphor/UML/classes/enumeration.py:73
+msgid "valueType"
+msgstr "типЗначения"
+
+#: gaphor/UML/classes/datatype.py:60
+msgid "dataType"
+msgstr "типДанных"
+
+#: gaphor/UML/classes/dependency.py:43
+msgid "use"
+msgstr "использует"
+
+#: gaphor/UML/classes/dependency.py:44
+msgid "realize"
+msgstr "реализует"
+
+#: gaphor/UML/classes/dependency.py:45
+msgid "implements"
+msgstr "имплементирует"
+
+#: gaphor/UML/classes/enumeration.py:75
+msgid "enumeration"
+msgstr "перечисление"
+
+#: gaphor/UML/classes/interface.py:290
+msgid "interface"
+msgstr "интерфейс"
+
+#: gaphor/UML/classes/klass.py:58
+msgid "stereotype"
+msgstr "стереотип"
+
+#: gaphor/UML/classes/klass.py:60
+msgid "metaclass"
+msgstr "метакласс"
+
+#: gaphor/UML/classes/package.py:28
+msgid "profile"
+msgstr "профиль"
+
+#: gaphor/UML/classes/propertypages.ui:11
+msgid "Show Direction"
+msgstr "Показать Направление"
+
+#: gaphor/UML/classes/propertypages.ui:49
+msgid "Head:"
+msgstr "Голова:"
+
+#: gaphor/UML/classes/propertypages.ui:83
+#: gaphor/UML/classes/propertypages.ui:218
+msgid ""
+"Add and edit association ends according to UML syntax.\n"
+"\n"
+"  • <tt>+ name</tt>\n"
+"  • <tt>+ name[1]</tt>\n"
+"  • <tt>- name[1..2]</tt>\n"
+"  • <tt>1..2</tt>\n"
+"  • <tt>- [1..2]</tt>\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Добавляйте и редактируйте концы ассоциаций в соответствии с синтаксисом "
+"UML.\n"
+"\n"
+"  • <tt>+ имя</tt>\n"
+"  • <tt>+ имя[1]</tt>\n"
+"  • <tt>- имя[1..2]</tt>\n"
+"  • <tt>1..2</tt>\n"
+"  • <tt>- [1..2]</tt>\n"
+"\n"
+"Нажмите <b>Enter</b> для редактирования, <b>Backspace</b>/<b>Delete</b> "
+"для удаления элементов.\n"
+"Используйте <b>-</b>/<b>=</b> для перемещения элементов вверх и вниз."
+
+#: gaphor/UML/classes/propertypages.ui:102
+#: gaphor/UML/classes/propertypages.ui:237
+msgid "Unknown navigation"
+msgstr "Неизвестная навигация"
+
+#: gaphor/UML/classes/propertypages.ui:103
+#: gaphor/UML/classes/propertypages.ui:238
+msgid "Not navigable"
+msgstr "Не навигационный"
+
+#: gaphor/UML/classes/propertypages.ui:104
+#: gaphor/UML/classes/propertypages.ui:239
+msgid "Navigable"
+msgstr "Навигационный"
+
+#: gaphor/UML/classes/propertypages.ui:135
+#: gaphor/UML/classes/propertypages.ui:270
+#: gaphor/UML/classes/propertypages.ui:324
+#: gaphor/UML/classes/propertypages.ui:366
+#: gaphor/UML/profiles/propertypages.ui:67
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: gaphor/UML/classes/propertypages.ui:155
+#: gaphor/UML/classes/propertypages.ui:290
+#: gaphor/UML/profiles/propertypages.ui:87
+msgid "Value"
+msgstr "Значение"
+
+#: gaphor/UML/classes/propertypages.ui:184
+msgid "Tail:"
+msgstr "Хвост:"
+
+#: gaphor/UML/classes/propertypages.ui:337
+msgid "Show Attributes"
+msgstr "Показывать Атрибуты"
+
+#: gaphor/UML/classes/propertypages.ui:419
+msgid ""
+"Add and edit class attributes according to UML syntax.\n"
+"\n"
+"  • <tt>attr</tt> (name, defaults to public visibility)\n"
+"  • <tt>+ attr: int</tt> (public with type)\n"
+"  • <tt>+ attr: int[0..1]</tt> (public, type, and multiplicity)\n"
+"  • <tt>+ attr: int | bool</tt> (public, union type)\n"
+"  • <tt># /attr: int # a note</tt> (protected, derived, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Добавляйте и изменяйте атрибуты класса в соответствии с синтаксисом UML.\n"
+"\n"
+"  • <tt>атрибут</tt> (имя, по умолчанию публичная видимость)\n"
+"  • <tt>+ атрибут: int</tt> (публичный с типом)\n"
+"  • <tt>+ атрибут: int[0..1]</tt> (публичный, тип, множественность)\n"
+"  • <tt>+ атрибут: int | bool</tt> (публичный, тип - объединение)\n"
+"  • <tt># /атрибут: int # пометка</tt> (защищённый, производный, с "
+"пометкой)\n"
+"\n"
+"Нажмите <b>Enter</b> для редактирования, <b>Backspace</b>/<b>Delete</b> "
+"для удаления элементов.\n"
+"Используйте <b>-</b>/<b>=</b> для перемещения элементов вверх и вниз."
+
+#: gaphor/UML/classes/propertypages.ui:471
+msgid "Dependency type"
+msgstr "Тип зависимости"
+
+#: gaphor/UML/classes/propertypages.ui:482
+msgid "Automatic"
+msgstr "Автоматический"
+
+#: gaphor/UML/classes/propertypages.ui:501
+msgid "Usage"
+msgstr "Использование"
+
+#: gaphor/UML/classes/propertypages.ui:502
+msgid "Realization"
+msgstr "Реализация"
+
+#: gaphor/UML/classes/propertypages.ui:503
+msgid "Implementation"
+msgstr "Имплементация"
+
+#: gaphor/UML/classes/propertypages.ui:522
+msgid "Folded"
+msgstr "Свёрнуто"
+
+#: gaphor/UML/classes/propertypages.ui:545
+#: gaphor/UML/classes/propertypages.ui:587
+msgid "Operations"
+msgstr "Методы"
+
+#: gaphor/UML/classes/propertypages.ui:558
+msgid "Show Operations"
+msgstr "Показывать Методы"
+
+#: gaphor/UML/classes/propertypages.ui:651
+msgid ""
+"Add and edit class operations according to UML syntax.\n"
+"\n"
+"  • <tt>call()</tt>\n"
+"  • <tt>+ call(a: int[*], b: str): bool</tt> (public, parameters)\n"
+"  • <tt># call(a: int, b: str) # a note</tt> (protected, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Добавляйте и редактируйте методы класса в соответствии с синтаксисом UML."
+"\n"
+"\n"
+"  • <tt>вызов()</tt>\n"
+"  • <tt>+ вызов(a: int[*], b: str): bool</tt> (публичный, параметры)\n"
+"  • <tt># вызов(a: int, b: str) # пометка</tt> (защищённый, с пометкой)\n"
+"\n"
+"Нажмите <b>Enter</b> для редактирования, <b>Backspace</b>/<b>Delete</b> "
+"для удаления элементов.\n"
+"Используйте <b>-</b>/<b>=</b> для перемещения элементов вверх и вниз."
+
+#: gaphor/UML/classes/propertypages.ui:680
+#: gaphor/UML/classes/propertypages.ui:722
+msgid "Enumeration Literals"
+msgstr "Значения"
+
+#: gaphor/UML/classes/propertypages.ui:693
+msgid "Show Enumeration Literals"
+msgstr "Показывать Значения"
+
+#: gaphor/UML/classes/propertypages.ui:757
+msgid ""
+"Add and edit enumeration literals according to UML syntax.\n"
+"\n"
+"  • <tt>enum</tt>\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Добавляйте и изменяйте значения перечисления в соответствии с синтаксисом"
+" UML.\n"
+"\n"
+"  • <tt>перечисление</tt>\n"
+"\n"
+"Нажмите <b>Enter</b> для редактирования, <b>Backspace</b>/<b>Delete</b> "
+"для удаления элементов.\n"
+"Используйте <b>-</b>/<b>=</b> для перемещения элементов вверх и вниз."
+
+#: gaphor/UML/classes/propertypages.ui:788
+msgid "Indirectly Instantiated"
+msgstr "Косвенный Экземпляр"
+
+#: gaphor/UML/classes/propertypages.ui:805
+msgid "A."
+msgstr "А."
+
+#: gaphor/UML/classes/propertypages.ui:809
+msgid "S."
+msgstr "С."
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:12
+msgid "Deployments"
+msgstr "Реализация"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:16
+msgid "Artifact"
+msgstr "Артефакт"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:28
+msgid "Node"
+msgstr "Узел"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:40
+msgid "Device"
+msgstr "Устройство"
+
+#: gaphor/UML/deployments/node.py:54
+msgid "device"
+msgstr "устройство"
+
+#: gaphor/UML/interactions/interactionsconnect.py:78
+msgid "call()"
+msgstr "вызов()"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:36
+#: gaphor/UML/interactions/interactionstoolbox.py:57
+#: gaphor/templates/sysml.gaphor gaphor/templates/uml.gaphor
+msgid "Interaction"
+msgstr "Взаимодействие"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:53
+#: gaphor/templates/uml.gaphor
+msgid "Interactions"
+msgstr "Взаимодействия"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:69
+msgid "Lifeline"
+msgstr "Линия жизни"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:81
+msgid "Execution Specification"
+msgstr "Спецификация Исполнения"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:89
+msgid "Message"
+msgstr "Сообщение"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:96
+msgid "Reflexive message"
+msgstr "Рефлексивное сообщение"
+
+#: gaphor/UML/interactions/propertypages.ui:9
+msgid "Message Sort"
+msgstr "Сортировка Сообщений"
+
+#: gaphor/UML/interactions/propertypages.ui:21
+#, fuzzy
+msgid "Call"
+msgstr "вызов()"
+
+#: gaphor/UML/interactions/propertypages.ui:22
+msgid "Asynchronous"
+msgstr ""
+
+#: gaphor/UML/interactions/propertypages.ui:23
+#, fuzzy
+msgid "Signal"
+msgstr "Отправить сигнал"
+
+#: gaphor/UML/interactions/propertypages.ui:24
+msgid "Reply"
+msgstr ""
+
+#: gaphor/UML/interactions/propertypages.ui:25
+#, fuzzy
+msgid "Create"
+msgstr "Создать Новую Модель"
+
+#: gaphor/UML/interactions/propertypages.ui:26
+#, fuzzy
+msgid "Delete"
+msgstr "_Удалить"
+
+#: gaphor/UML/profiles/packageimport.py:24
+msgid "import"
+msgstr "импорт"
+
+#: gaphor/UML/profiles/profilestoolbox.py:18
+msgid "Profiles"
+msgstr "Профили"
+
+#: gaphor/UML/profiles/profilestoolbox.py:22
+msgid "Profile"
+msgstr "Профиль"
+
+#: gaphor/UML/profiles/profilestoolbox.py:34
+msgid "Metaclass"
+msgstr "Метакласс"
+
+#: gaphor/UML/profiles/profilestoolbox.py:44
+msgid "Stereotype"
+msgstr "Стереотип"
+
+#: gaphor/UML/profiles/profilestoolbox.py:56
+msgid "Extension"
+msgstr "Расширение"
+
+#: gaphor/UML/profiles/profilestoolbox.py:63
+msgid "Import"
+msgstr "Импорт"
+
+#: gaphor/UML/profiles/propertypages.ui:33
+msgid "Stereotypes"
+msgstr "Стереотипы"
+
+#: gaphor/UML/profiles/propertypages.ui:46
+msgid "Show Stereotypes"
+msgstr "Показать Стереотипы"
+
+#: gaphor/UML/states/propertypages.ui:9
+msgid "Activities"
+msgstr "Деятельности"
+
+#: gaphor/UML/states/propertypages.ui:20
+msgid "Entry"
+msgstr "Вход"
+
+#: gaphor/UML/states/propertypages.ui:31
+msgid "Exit"
+msgstr "Выход"
+
+#: gaphor/UML/states/propertypages.ui:42
+msgid "Do Activity"
+msgstr "Выполнить Деятельность"
+
+#: gaphor/UML/states/propertypages.ui:90 gaphor/UML/states/propertypages.ui:119
+msgid "Regions"
+msgstr "Регионы"
+
+#: gaphor/UML/states/propertypages.ui:103
+msgid "Show Regions"
+msgstr "Показать Регионы"
+
+#: gaphor/UML/states/statemachine.py:39
+msgid "statemachine"
+msgstr "конечный автомат"
+
+#: gaphor/UML/states/statestoolbox.py:16 gaphor/UML/states/statestoolbox.py:75
+msgid "State"
+msgstr "Состояние"
+
+#: gaphor/UML/states/statestoolbox.py:46 gaphor/UML/states/statestoolbox.py:63
+#: gaphor/templates/sysml.gaphor
+msgid "State Machine"
+msgstr "Конечный Автомат"
+
+#: gaphor/UML/states/statestoolbox.py:59
+msgid "States"
+msgstr "Состояния"
+
+#: gaphor/UML/states/statestoolbox.py:87
+msgid "Initial Pseudostate"
+msgstr "Начальное Псевдосостояние"
+
+#: gaphor/UML/states/statestoolbox.py:99
+msgid "Final State"
+msgstr "Финальное псевдосостояние"
+
+#: gaphor/UML/states/statestoolbox.py:111
+msgid "Transition"
+msgstr "Переход"
+
+#: gaphor/UML/states/statestoolbox.py:118
+msgid "Shallow History Pseudostate"
+msgstr "Недавнее Историческое Псевдосостояние"
+
+#: gaphor/UML/states/statestoolbox.py:130
+msgid "Deep History Pseudostate"
+msgstr "Давнее Историческое Псевдосостояние"
+
+#: gaphor/UML/states/statestoolbox.py:142
+msgid "Join Pseudostate"
+msgstr "Псевдосостояние Объединения"
+
+#: gaphor/UML/states/statestoolbox.py:154
+msgid "Fork Pseudostate"
+msgstr "Псевдосостояние Раздвоения"
+
+#: gaphor/UML/states/statestoolbox.py:166
+msgid "Junction Pseudostate"
+msgstr "Псевдосостояние Соединения"
+
+#: gaphor/UML/states/statestoolbox.py:178
+msgid "Choice Pseudostate"
+msgstr "Псевдосостояние Выбора"
+
+#: gaphor/UML/states/statestoolbox.py:190
+msgid "Entry Point Pseudostate"
+msgstr "Точка Входа"
+
+#: gaphor/UML/states/statestoolbox.py:202
+msgid "Exit Point Pseudostate"
+msgstr "Точка Выхода"
+
+#: gaphor/UML/states/statestoolbox.py:214
+msgid "Terminate Pseudostate"
+msgstr "Узел Завершения"
+
+#: gaphor/UML/usecases/extend.py:21
+msgid "extend"
+msgstr "расширить"
+
+#: gaphor/UML/usecases/include.py:21
+msgid "include"
+msgstr "включить"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:12 gaphor/templates/sysml.gaphor
+#: gaphor/templates/uml.gaphor
+msgid "Use Cases"
+msgstr "Прецеденты"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:16
+msgid "Use case"
+msgstr "Прецедент"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:28 gaphor/templates/uml.gaphor
+msgid "Actor"
+msgstr "Актор"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:47
+msgid "Include"
+msgstr "Включение"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:55
+msgid "Extend"
+msgstr "Расширение"
+
+#: gaphor/diagram/diagramtoolbox.py:108 gaphor/ui/help/shortcuts.ui:16
+msgid "General"
+msgstr "Общее"
+
+#: gaphor/diagram/diagramtoolbox.py:112
+msgid "Pointer"
+msgstr "Указатель"
+
+#: gaphor/diagram/diagramtoolbox.py:119
+msgid "Magnet"
+msgstr "Магнит"
+
+#: gaphor/diagram/diagramtoolbox.py:126
+msgid "Line"
+msgstr "Линия"
+
+#: gaphor/diagram/diagramtoolbox.py:133
+msgid "Box"
+msgstr "Контейнер"
+
+#: gaphor/diagram/diagramtoolbox.py:141
+msgid "Ellipse"
+msgstr "Эллипс"
+
+#: gaphor/diagram/diagramtoolbox.py:149 gaphor/diagram/propertypages.ui:9
+msgid "Comment"
+msgstr "Комментарий"
+
+#: gaphor/diagram/diagramtoolbox.py:157
+msgid "Comment line"
+msgstr "Линия к комментарию"
+
+#: gaphor/diagram/diagramtoolbox.py:164
+#, fuzzy
+msgid "Diagram metadata"
+msgstr "Новое меню диаграммы"
+
+#: gaphor/diagram/presentation.py:48
+msgid "(from {namespace})"
+msgstr "(из {namespace})"
+
+#: gaphor/diagram/propertypages.ui:57
+msgid "Style"
+msgstr "Стиль"
+
+#: gaphor/diagram/propertypages.ui:68
+msgid "Rectilinear"
+msgstr "Прямолинейный"
+
+#: gaphor/diagram/propertypages.ui:74
+msgid "Flip orientation"
+msgstr "Отразить ориентацию"
+
+#: gaphor/diagram/propertypages.ui:89
+msgid "Note or Remark"
+msgstr "Заметка или Примечание"
+
+#: gaphor/diagram/propertypages.ui:123
+msgid "Created By"
+msgstr ""
+
+#: gaphor/diagram/propertypages.ui:151
+msgid "Website"
+msgstr ""
+
+#: gaphor/diagram/propertypages.ui:165
+#, fuzzy
+msgid "Revision"
+msgstr "решение"
+
+#: gaphor/diagram/propertypages.ui:179
+#, fuzzy
+msgid "License"
+msgstr "Линия"
+
+#: gaphor/diagram/propertypages.ui:193
+#, fuzzy
+msgid "Created On"
+msgstr "Создать Новую Модель"
+
+#: gaphor/diagram/propertypages.ui:207
+msgid "Updated On"
+msgstr ""
+
+#: gaphor/diagram/tools/dnd.py:50
+msgid "Element can’t be represented on a diagram."
+msgstr "Элемент не можт быть представлен на диаграмме."
+
+#: gaphor/extensions/sphinx.py:63
+msgid "No model file configured for model '{model_name}'."
+msgstr "Нет файла модели, настроенного для модели '{model_name}'."
+
+#: gaphor/extensions/sphinx.py:88
+msgid "No diagram '{name}' in model '{model_name}' ({model_file})."
+msgstr "Нет диаграммы '{name}' в модели '{model_name}' ({model_file})."
+
+#: gaphor/plugins/autolayout/pydot.py:45
+msgid "Auto Layout"
+msgstr "Авторазмещение"
+
+#: gaphor/plugins/autolayout/pydot.py:53
+msgid "Auto Layout (orthogonal)"
+msgstr "Авторазмещение (ортогональное)"
+
+#: gaphor/plugins/console/console.py:24
+msgid ""
+"Gaphor Interactive Python Console\n"
+"{version}\n"
+"Type \"help\" for more information.\n"
+msgstr ""
+"Интерактивная Python-консоль Gaphor\n"
+"{version}\n"
+"Введите \"help\" для получения дополнительной информации.\n"
+
+#: gaphor/plugins/console/consolewindow.py:19
+msgid "Gaphor Console"
+msgstr "Консоль Gaphor"
+
+#: gaphor/plugins/console/consolewindow.py:42
+msgid "Console"
+msgstr "Консоль"
+
+#: gaphor/plugins/diagramexport/__init__.py:50
+msgid "All {ext} Files"
+msgstr "Все Файлы {ext}"
+
+#: gaphor/plugins/diagramexport/__init__.py:56
+msgid "Export as SVG"
+msgstr "Экспортировать как SVG"
+
+#: gaphor/plugins/diagramexport/__init__.py:57
+#: gaphor/plugins/diagramexport/__init__.py:62
+msgid "Export diagram as SVG"
+msgstr "Экспортировать диаграмму как SVG"
+
+#: gaphor/plugins/diagramexport/__init__.py:67
+msgid "Export as PNG"
+msgstr "Экспортировать как PNG"
+
+#: gaphor/plugins/diagramexport/__init__.py:68
+#: gaphor/plugins/diagramexport/__init__.py:73
+msgid "Export diagram as PNG"
+msgstr "Экспортировать диаграмму как PNG"
+
+#: gaphor/plugins/diagramexport/__init__.py:78
+msgid "Export as PDF"
+msgstr "Экспортировать как PDF"
+
+#: gaphor/plugins/diagramexport/__init__.py:79
+#: gaphor/plugins/diagramexport/__init__.py:85
+msgid "Export diagram as PDF"
+msgstr "Экспортировать диаграмму как PDF"
+
+#: gaphor/plugins/diagramexport/__init__.py:93
+msgid "Export as EPS"
+msgstr "Экспортировать как EPS"
+
+#: gaphor/plugins/diagramexport/__init__.py:94
+msgid "Export diagram as Encapsulated PostScript"
+msgstr "Экспортировать диаграмму как Encapsulated PostScript"
+
+#: gaphor/plugins/diagramexport/__init__.py:100
+msgid "Export diagram as EPS"
+msgstr "Экспортировать диаграмму как EPS"
+
+#: gaphor/plugins/errorreports/errorreports.py:61
+#: gaphor/plugins/errorreports/errorreports.ui:6
+msgid "Error Reports"
+msgstr "Отчёты об Ошибках"
+
+#: gaphor/plugins/errorreports/errorreports.py:96
+msgid "No errors have been intercepted. We’re good."
+msgstr "Не было перехвачено никаких ошибок. Всё хорошо."
+
+#: gaphor/plugins/errorreports/errorreports.py:100
+msgid "Errors:"
+msgstr "Ошибки:"
+
+#: gaphor/plugins/errorreports/errorreports.py:149
+msgid ""
+"An unexpected error occurred.\n"
+"Please file an issue on GitHub and include information from Tools → Error"
+" Reports."
+msgstr ""
+"Произошла неожиданная ошибка.\n"
+"Пожалуйста, отправьте сообщение о проблеме на GitHub и включите "
+"информацию из меню Инструменты → Отчеты об ошибках."
+
+#: gaphor/plugins/errorreports/errorreports.ui:18
+msgid ""
+"Any unhandled errors are shown here. You can use these to provide extra "
+"information when you create an issue on GitHub."
+msgstr ""
+"Здесь показаны все необработанные ошибки. Вы можете использовать их для "
+"предоставления дополнительной информации при создании проблемы (issue) на"
+" GitHub."
+
+#: gaphor/plugins/xmiexport/__init__.py:25
+msgid "Export as XMI"
+msgstr "Экспортировать как XMI"
+
+#: gaphor/plugins/xmiexport/__init__.py:26
+msgid "Export model as XMI (XML Model Interchange) format"
+msgstr "Экспорт модели в формате XMI (XML Model Interchange)"
+
+#: gaphor/plugins/xmiexport/__init__.py:43
+msgid "Export model as XMI file"
+msgstr "Экспортировать модель как файл XMI"
+
+#: gaphor/plugins/xmiexport/__init__.py:47
+msgid "All XMI Files"
+msgstr "Все Файлы XMI"
+
+#: gaphor/templates/blank.gaphor gaphor/ui/filemanager.py:62
+#: gaphor/ui/mainwindow.py:251 gaphor/ui/mainwindow.ui:45
+msgid "New model"
+msgstr "Новая модель"
+
+#: gaphor/templates/blank.gaphor gaphor/ui/filemanager.py:65
+#: gaphor/ui/modelbrowser.py:639
+msgid "New diagram"
+msgstr "Новая диаграмма"
+
+#: gaphor/templates/c4model.gaphor
+msgid "1. Context diagrams"
+msgstr "1. Диаграммы контекста"
+
+#: gaphor/templates/c4model.gaphor
+msgid "2. Container diagrams"
+msgstr "2. Диаграммы контейнеров"
+
+#: gaphor/templates/c4model.gaphor
+msgid "4. Code diagrams"
+msgstr "4. Диаграммы кода"
+
+#: gaphor/templates/c4model.gaphor
+msgid "3. Component diagrams"
+msgstr "3. Диаграммы компонентов"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Context diagram"
+msgstr "Диаграмма контекста"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Container diagram"
+msgstr "Диаграмма контейнеров"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Component diagram"
+msgstr "Диаграмма компонентов"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Code diagram"
+msgstr "Диаграмма кода"
+
+#: gaphor/templates/raaml.gaphor gaphor/templates/uml.gaphor
+msgid "Model Name Here"
+msgstr "Имя Модели Здесь"
+
+#: gaphor/templates/raaml.gaphor
+msgid "STPA"
+msgstr "STPA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss Definition"
+msgstr "Определение Потери"
+
+#: gaphor/templates/raaml.gaphor
+msgid "FTA"
+msgstr "FTA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of System"
+msgstr "Потеря Системы"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Subsystem 1"
+msgstr "Потеря Подсистемы 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Subsystem 2"
+msgstr "Потеря Подсистемы 2"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard Definition"
+msgstr "Определение Опасности"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Life or Injury of People"
+msgstr "Гибель или Ранение Людей"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Mission"
+msgstr "Потеря Миссии"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Customer Satisfaction"
+msgstr "Потеря Удовлетворённости Клиентов"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard 2"
+msgstr "Опасность 2"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard 1"
+msgstr "Опасность 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Mapping of Losses and Hazards"
+msgstr "Сопоставление Потерь и Опасностей"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Operational Situations"
+msgstr "Оперативные Обстановки"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Operational Situation 1"
+msgstr "Оперативная Обстановка 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Context of UCAs"
+msgstr "Контекст UCA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Situational Context"
+msgstr "Ситуационный Контекст"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Situation Hierarchy"
+msgstr "Ситуационная Иерархия"
+
+#: gaphor/templates/raaml.gaphor
+msgid ""
+"The fault tree analysis shows which causes for the failure of a system "
+"have been considered."
+msgstr ""
+"Анализ дерева отказов показывает, какие причины сбоя системы были "
+"рассмотрены."
+
+#: gaphor/templates/sysml.gaphor
+msgid "1. Concept Level"
+msgstr "1. Уровень Концепции"
+
+#: gaphor/templates/sysml.gaphor
+msgid "2. Logical Level"
+msgstr "2. Уровень Логики"
+
+#: gaphor/templates/sysml.gaphor
+msgid "3. Technology Level"
+msgstr "3. Уровень Технологии"
+
+#: gaphor/templates/sysml.gaphor
+msgid "User"
+msgstr "Пользователь"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Use Case #1"
+msgstr "Прецедент №1"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Behavior"
+msgstr "Поведение"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Structure"
+msgstr "Структура"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Feature Domain"
+msgstr "Команда Привода"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Operator"
+msgstr "Оператор"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+msgid "External Element"
+msgstr "Внешний Элемент"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Concept Requirements"
+msgstr "Требования"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature User Need"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical Structure"
+msgstr "Логическая Структура"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Sensor"
+msgstr "Сенсор"
+
+#: gaphor/templates/sysml.gaphor
+msgid "sensor"
+msgstr "сенсор"
+
+#: gaphor/templates/sysml.gaphor
+msgid "controller"
+msgstr "контроллер"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical Boundary"
+msgstr "Логическая Граница"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Structure"
+msgstr "Технологическая Структура"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Boundary"
+msgstr "Технологическая Граница"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Requirements"
+msgstr "Технологические Требования"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detailed Behavior"
+msgstr "Подробное Поведение"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Logical Requirements"
+msgstr "Требования"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical States"
+msgstr "Логические Состояния"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature Event Flow"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+msgid "Off"
+msgstr "Выключено"
+
+#: gaphor/templates/sysml.gaphor
+msgid "On"
+msgstr "Включено"
+
+#: gaphor/templates/sysml.gaphor
+msgid "actuator"
+msgstr "привод"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Use Case Function #1"
+msgstr "Функция Прецедента №1"
+
+#: gaphor/templates/sysml.gaphor
+msgid "First Action"
+msgstr "Первое Действие"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Second Action"
+msgstr "Второе Действие"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Example System Requirement"
+msgstr "Пример Системных Требований"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Sensed Data"
+msgstr "Воспринятые Данные"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Command"
+msgstr "Команда"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Functional Boundary Behavior"
+msgstr "Функциональное Пограничное Поведение"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Determine Actuator Command"
+msgstr "Определить Команду Привода"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Actuate Actuator"
+msgstr "Привести в действие Привод"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Example Technology Requirement"
+msgstr "Пример Технологических Требований"
+
+#: gaphor/templates/sysml.gaphor
+msgid "System"
+msgstr "Система"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ECU"
+msgstr "ЭБУ"
+
+#: gaphor/templates/sysml.gaphor
+msgid "DC Motor"
+msgstr "Двигатель Постоянного Тока"
+
+#: gaphor/templates/sysml.gaphor
+msgid "IR Transceiver"
+msgstr "ИК-трансивер"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ecu"
+msgstr "эбу"
+
+#: gaphor/templates/sysml.gaphor
+msgid "dc Motor"
+msgstr "Двигатель постоянного тока"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ir Transceiver"
+msgstr "ик-трансивер"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detect Obstacle"
+msgstr "Обнаружить Препятствие"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Command Reverse"
+msgstr "Обратная Команда"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Reverse Motor"
+msgstr "Двигатель Заднего Хода"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detect Object"
+msgstr "Обнаружить Объект"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detection Event"
+msgstr "Событие Обнаружения"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature Context"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Read Input"
+msgstr "Создать Новую Модель"
+
+#: gaphor/templates/sysml.gaphor
+msgid "FeatureInput"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Request Actuation"
+msgstr "Первое Действие"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Actuation Command"
+msgstr "Команда Привода"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Model Navigation"
+msgstr "Неизвестная навигация"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Concept"
+msgstr "Соединитель"
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Logical"
+msgstr "Вход"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Pillar"
+msgstr ""
+
+#: gaphor/templates/sysml.gaphor
+#, fuzzy
+msgid "Abstraction Level"
+msgstr "Абстрактный"
+
+#: gaphor/templates/uml.gaphor
+msgid "1. Use Cases"
+msgstr "1. Прецеденты"
+
+#: gaphor/templates/uml.gaphor
+msgid "2. Domain Analysis"
+msgstr "2. Анализ Предметной области"
+
+#: gaphor/templates/uml.gaphor
+msgid "3. Architectural Design"
+msgstr "3. Архитектурный Дизайн"
+
+#: gaphor/templates/uml.gaphor
+msgid "4. Detailed Design"
+msgstr "4. Рабочий Проект"
+
+#: gaphor/templates/uml.gaphor
+msgid "Main Actor"
+msgstr "Главный Актор"
+
+#: gaphor/templates/uml.gaphor
+msgid "Main Use Case"
+msgstr "Основной Прецедент"
+
+#: gaphor/templates/uml.gaphor
+msgid "Included Use Case"
+msgstr "Включённый Прецедент"
+
+#: gaphor/templates/uml.gaphor
+msgid "Secondary Actor"
+msgstr "Второстепенный Актор"
+
+#: gaphor/templates/uml.gaphor
+msgid "Secondary Use Case"
+msgstr "Второстепенный Прецедент"
+
+#: gaphor/templates/uml.gaphor
+msgid "Use Case Scenarios"
+msgstr "Сценарии Прецедентов"
+
+#: gaphor/templates/uml.gaphor
+msgid "Scenario 1"
+msgstr "Сценарий 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Scenario 2"
+msgstr "Сценарий 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "Domain Entities"
+msgstr "Сущности Домена"
+
+#: gaphor/templates/uml.gaphor
+msgid "Software Task"
+msgstr "Задача Программного обеспечения"
+
+#: gaphor/templates/uml.gaphor
+msgid "performs"
+msgstr "выполняет"
+
+#: gaphor/templates/uml.gaphor
+msgid "Package Dependencies"
+msgstr "Зависимости Пакета"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 1"
+msgstr "Компонент ПО 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 4"
+msgstr "Компонент ПО 4"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 3"
+msgstr "Компонент ПО 3"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 2"
+msgstr "Компонент ПО 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "Primary Actor"
+msgstr "Основной Актор"
+
+#: gaphor/templates/uml.gaphor
+msgid "Actor Profile"
+msgstr "Профиль Актора"
+
+#: gaphor/templates/uml.gaphor
+msgid "login"
+msgstr "вход"
+
+#: gaphor/templates/uml.gaphor
+msgid "Detailed Class Design"
+msgstr "Детальное Проектирование Класса"
+
+#: gaphor/templates/uml.gaphor
+msgid "First Class"
+msgstr "Первый Класс"
+
+#: gaphor/templates/uml.gaphor
+msgid "firstName"
+msgstr "имя"
+
+#: gaphor/templates/uml.gaphor
+msgid "lastName"
+msgstr "фамилия"
+
+#: gaphor/templates/uml.gaphor
+msgid "Login"
+msgstr "Вход"
+
+#: gaphor/templates/uml.gaphor
+msgid "lastLogin"
+msgstr "последнийВход"
+
+#: gaphor/templates/uml.gaphor
+msgid "Second Class"
+msgstr "Второй Класс"
+
+#: gaphor/templates/uml.gaphor
+msgid "released"
+msgstr "освобождённый"
+
+#: gaphor/templates/uml.gaphor
+msgid "Implementation Architecture"
+msgstr "Архитектура Реализации"
+
+#: gaphor/templates/uml.gaphor
+msgid "Node 1"
+msgstr "Узел 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Artifact 1"
+msgstr "Артефакт 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Node 2"
+msgstr "Узел 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "protocol"
+msgstr "протокол"
+
+#: gaphor/templates/uml.gaphor
+msgid "Artifact 2"
+msgstr "Артефакт 2"
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Analyze functional requirements by\n"
+"identifying user roles – actors – and\n"
+"associating them to their use cases."
+msgstr ""
+"Анализируйте функциональные требования,\n"
+"определив роли пользователей – акторов – и\n"
+"связав их с их прецедентами."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Model abstract use case implementation by creating activity diagrams "
+"visualizing activity flows for primary and secondary use case scenarios."
+msgstr ""
+"Моделируйте реализацию абстрактного прецедента, создав диаграммы "
+"деятельности, визуализирующие потоки действий для основных и "
+"второстепенных прецедентов."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Perform domain analysis by modeling domain entities and their "
+"relationships using simplified class diagram. This diagram will serve as "
+"a visual dictionary of concepts. It will also be a starting point for "
+"your design-level data model."
+msgstr ""
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Prepare package dependencies diagram to group your implementation classes"
+" in appropriate way. This will help you maintain the code well structured"
+" and avoid design flaws such as cyclic dependencies or dependencies on "
+"unstable parts"
+msgstr ""
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Model component interactions for use case scenarios in order to find out "
+"new methods in\n"
+"existing classes or even new classes with specific responsibilities."
+msgstr ""
+
+#: gaphor/templates/uml.gaphor
+msgid "Create detailed class diagrams to capture your object-oriented data model."
+msgstr ""
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Define the major artifacts that manifest implementation of your "
+"components. Indicate how they are deployed on hardware nodes, their "
+"inter-dependencies and communication protocols."
+msgstr ""
+
+#: gaphor/templates/uml.gaphor
+msgid "String"
+msgstr "Строка"
+
+#: gaphor/templates/uml.gaphor
+msgid "Date"
+msgstr "Дата"
+
+#: gaphor/ui/appfilemanager.py:16 gaphor/ui/filedialog.py:13
+msgid "All Gaphor Models"
+msgstr "Все Модели Gaphor"
+
+#: gaphor/ui/appfilemanager.py:42
+msgid "Switch to {name}?"
+msgstr "Переключиться на {name}?"
+
+#: gaphor/ui/appfilemanager.py:43
+msgid ""
+"{name} is already opened. Do you want to switch to the opened window "
+"instead?"
+msgstr "{name} уже открыт. Вы хотите переключиться на открытое окно вместо этого?"
+
+#: gaphor/ui/appfilemanager.py:51
+msgid "Open Again"
+msgstr "Открыть Снова"
+
+#: gaphor/ui/appfilemanager.py:52
+msgid "Switch"
+msgstr "Переключиться"
+
+#: gaphor/ui/appfilemanager.py:73
+msgid "Open a Model"
+msgstr "Открыть Модель"
+
+#: gaphor/ui/diagrampage.py:94 gaphor/ui/mainwindow.py:270
+#: gaphor/ui/modelmerge/organize.py:135 gaphor/ui/modelmerge/organize.py:166
+#: gaphor/ui/treemodel.py:44
+msgid "<None>"
+msgstr "<Пусто>"
+
+#: gaphor/ui/diagrams.ui:12
+msgid "Open a Diagram"
+msgstr "Открыть Диаграмму"
+
+#: gaphor/ui/diagrams.ui:14
+msgid ""
+"Open a diagram from the model browser, or\n"
+"create a new diagram from the New diagram menu."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:11
+msgid "No item selected"
+msgstr "Ничего не выбрано"
+
+#: gaphor/ui/elementeditor.ui:23
+msgid "Show Tips"
+msgstr "Показывать Советы"
+
+#: gaphor/ui/elementeditor.ui:44
+msgid ""
+"Add a model element from the tool box (bottom left) to the diagram. Here "
+"you will see its properties appear."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:52
+msgid "This pane can be hidden by clicking the pane icon in the header."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:60
+msgid ""
+"<b>Tip:</b> Most elements in the toolbox have a keyboard shortcut (e.g. "
+"\"c\" for Class). Tool selection only works from the diagram. If a tool "
+"does not get selected, click on the diagram once (so it's focused) and "
+"then hit the shortcut key."
+msgstr ""
+"<b>Совет:</b> Большинство элементов на панели инструментов имеют "
+"сочетание клавиш (например, \"c\" для Class). Выбор инструмента работает "
+"только на диаграмме. Если инструмент не выбирается, щелкните на диаграмме"
+" один раз (чтобы она была сфокусирована), а затем нажмите сочетание "
+"клавиш."
+
+#: gaphor/ui/elementeditor.ui:68
+msgid ""
+"<b>Tip:</b> To search for an element in the model browser (top left), "
+"select an element in the model browser and start typing. A search box "
+"will automatically appear."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:97 gaphor/ui/help/shortcuts.ui:129
+msgid "Undo"
+msgstr "Отменить"
+
+#: gaphor/ui/elementeditor.ui:115 gaphor/ui/help/shortcuts.ui:137
+msgid "Redo"
+msgstr "Повторить"
+
+#: gaphor/ui/elementeditor.ui:134 gaphor/ui/help/shortcuts.ui:154
+msgid "Zoom In"
+msgstr "Приблизить"
+
+#: gaphor/ui/elementeditor.ui:149 gaphor/ui/help/shortcuts.ui:170
+msgid "Reset Zoom"
+msgstr "Реальный Размер"
+
+#: gaphor/ui/elementeditor.ui:164 gaphor/ui/help/shortcuts.ui:162
+msgid "Zoom Out"
+msgstr "Отдалить"
+
+#: gaphor/ui/elementeditor.ui:205
+msgid "Editors"
+msgstr "Редакторы"
+
+#: gaphor/ui/elementeditor.ui:230 gaphor/ui/elementeditor.ui:244
+#: gaphor/ui/help/shortcuts.ui:54
+msgid "Preferences"
+msgstr "Параметры"
+
+#: gaphor/ui/elementeditor.ui:257
+msgid "Reset Tool Automatically"
+msgstr "Перезапускать Инструмент Автоматически"
+
+#: gaphor/ui/elementeditor.ui:275
+msgid "Remove Unused Elements"
+msgstr "Удалять Неиспользуемые Элементы"
+
+#: gaphor/ui/elementeditor.ui:277 gaphor/ui/elementeditor.ui:284
+msgid "Automatically remove elements no longer in use in any diagram."
+msgstr ""
+"Автоматически удалять элементы, которые больше не используются ни в одной"
+" диаграмме."
+
+#: gaphor/ui/elementeditor.ui:295
+#, fuzzy
+msgid "Language"
+msgstr "фамилия"
+
+#: gaphor/ui/elementeditor.ui:297 gaphor/ui/elementeditor.ui:305
+msgid "The (spoken) language used in this model."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:313
+msgid "Style Sheet"
+msgstr "Таблица Стилей"
+
+#: gaphor/ui/elementeditor.ui:340
+msgid ""
+"🔗 <a href=\"https://docs.gaphor.org/en/latest/style_sheets.html\">Style "
+"sheets in Gaphor</a>"
+msgstr ""
+"🔗 <a href=\"https://docs.gaphor.org/en/latest/style_sheets.html\">Таблицы"
+" стилей в Gaphor</a>"
+
+#: gaphor/ui/elementeditor.ui:354
+#, fuzzy
+msgid "Merge Models"
+msgstr "Новая модель"
+
+#: gaphor/ui/elementeditor.ui:368
+msgid "Merge Model Changes"
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:379
+msgid ""
+"Apply incoming changes from the conflicting model. Use Undo to revert "
+"changes."
+msgstr ""
+
+#: gaphor/ui/elementeditor.ui:399
+msgid "Resolve"
+msgstr ""
+
+#: gaphor/ui/errorhandler.py:19
+msgid ""
+"It looks like Gaphor is started from the command line. Do you want to "
+"open a debug session?"
+msgstr ""
+"Похоже, что Gaphor запущен из командной строки. Вы хотите открыть сеанс "
+"отладки?"
+
+#: gaphor/ui/errorhandler.py:28 gaphor/ui/errorhandler.py:33
+msgid "Close"
+msgstr "Закрыть"
+
+#: gaphor/ui/errorhandler.py:29
+msgid "Start Debug Session"
+msgstr "Начать Сеанс Отладки"
+
+#: gaphor/ui/filedialog.py:34
+msgid "All Files"
+msgstr "Все файлы"
+
+#: gaphor/ui/filemanager.py:41
+msgid ""
+"Gaphor was not able to store the model, probably due to an internal "
+"error:\n"
+"{exc}\n"
+"If you think this is a bug, please contact the developers."
+msgstr ""
+"Gaphor не смог сохранить модель, вероятно, из-за внутренней ошибки:\n"
+"{exc}\n"
+"Если вы считаете, что это ошибка, пожалуйста, свяжитесь с разработчиками."
+
+#: gaphor/ui/filemanager.py:45
+msgid ""
+"You do not have the permissions necessary to save the model.\n"
+"Please check that you typed the location correctly and try again."
+msgstr ""
+"У вас нет разрешений, необходимых для сохранения модели.\n"
+"Проверьте, правильно ли вы ввели расположение, и повторите попытку."
+
+#: gaphor/ui/filemanager.py:49
+msgid ""
+"You do not have enough free space on the device to save the model.\n"
+"Please free up some disk space and try again or save it in a different "
+"location."
+msgstr ""
+"Вам не хватает свободного места на устройстве для сохранения модели.\n"
+"Пожалуйста, освободите место на диске и повторите попытку или сохраните "
+"модель в другом месте."
+
+#: gaphor/ui/filemanager.py:52
+msgid ""
+"The model cannot be stored at this location:\n"
+"{exc}\n"
+"Please check that you typed the location correctly and try again."
+msgstr ""
+"Модель не может быть сохранена в следующем расположении:\n"
+"{exc}\n"
+"Проверьте, правильно ли вы ввели расположение, и повторите попытку."
+
+#: gaphor/ui/filemanager.py:125 gaphor/ui/filemanager.py:148
+msgid "Loading…"
+msgstr "Загрузка…"
+
+#: gaphor/ui/filemanager.py:126
+msgid "Loading model from {filename}"
+msgstr "Загрузка модели из {filename}"
+
+#: gaphor/ui/filemanager.py:149
+msgid "Loading current and incoming model"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:227 gaphor/ui/filemanager.py:283
+msgid "Unable to open model “{filename}”."
+msgstr "Не удается открыть модель “{filename}”."
+
+#: gaphor/ui/filemanager.py:230 gaphor/ui/filemanager.py:286
+msgid "This file does not contain a valid Gaphor model."
+msgstr "Этот файл не содержит допустимую модель Gaphor."
+
+#: gaphor/ui/filemanager.py:306
+msgid "Saving…"
+msgstr "Сохранение…"
+
+#: gaphor/ui/filemanager.py:307
+msgid "Saving model to {filename}"
+msgstr "Сохранение модели в {filename}"
+
+#: gaphor/ui/filemanager.py:323
+msgid "Unable to save model “{filename}”."
+msgstr "Не удалось сохранить модель в “{filename}”."
+
+#: gaphor/ui/filemanager.py:361 gaphor/ui/filemanager.py:396
+msgid "Save Gaphor Model As"
+msgstr "Сохранить модель Gaphor как"
+
+#: gaphor/ui/filemanager.py:417
+msgid "Resolve Merge Conflict?"
+msgstr "Разрешить Конфликт Слияния?"
+
+#: gaphor/ui/filemanager.py:420
+msgid ""
+"The model you are opening contains a merge conflict. Do you want to open "
+"the current model or the incoming change to the model?"
+msgstr ""
+"Модель, которую вы открываете, содержит конфликт слияния. Вы хотите "
+"открыть текущую модель или входящие изменения в модель?"
+
+#: gaphor/ui/filemanager.py:424 gaphor/ui/filemanager.py:449
+msgid "Cancel"
+msgstr "Отмена"
+
+#: gaphor/ui/filemanager.py:425
+msgid "Open Merge Editor"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:426
+msgid "Open Current"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:427
+msgid "Open Incoming"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:440
+msgid "Save Changes?"
+msgstr "Сохранить изменения?"
+
+#: gaphor/ui/filemanager.py:441
+msgid ""
+"The open model contains unsaved changes. Changes which are not saved will"
+" be permanently lost."
+msgstr ""
+"Открытая модель содержит несохраненные изменения. Изменения, которые не "
+"будут сохранены, будут безвозвратно потеряны."
+
+#: gaphor/ui/filemanager.py:450
+msgid "Discard"
+msgstr "Отклонить"
+
+#: gaphor/ui/filemanager.py:451 gaphor/ui/help/shortcuts.ui:103
+#: gaphor/ui/mainwindow.py:51
+msgid "Save"
+msgstr "Сохранить"
+
+#: gaphor/ui/greeter.py:27
+msgid "Generic"
+msgstr "Общая"
+
+#: gaphor/ui/greeter.py:28
+msgid "An empty model"
+msgstr "Пустая модель"
+
+#: gaphor/ui/greeter.py:35
+msgid "Unified Modeling Language template"
+msgstr "Шаблон Унифицированного Языка Моделирования"
+
+#: gaphor/ui/greeter.py:42
+msgid "Systems Modeling Language template"
+msgstr "Шаблон Языка Моделирования Систем"
+
+#: gaphor/ui/greeter.py:49
+msgid "Risk Analysis and Assessment Modeling Language template"
+msgstr "Шаблон Языка Моделирования Анализа и Оценки Рисков"
+
+#: gaphor/ui/greeter.py:56
+msgid "Layered C4 Model template"
+msgstr "Многоуровневый шаблон Модели C4"
+
+#: gaphor/ui/greeter.ui:8 gaphor/ui/greeter.ui:49 gaphor/ui/mainwindow.py:47
+msgid "Open Model…"
+msgstr "Открыть Модель…"
+
+#: gaphor/ui/greeter.ui:14 gaphor/ui/mainwindow.py:61
+msgid "Keyboard Shortcuts"
+msgstr "Сочетания клавиш"
+
+#: gaphor/ui/greeter.ui:18 gaphor/ui/help/about.ui:10
+#: gaphor/ui/mainwindow.py:62
+msgid "About Gaphor"
+msgstr "О Gaphor"
+
+#: gaphor/ui/greeter.ui:80
+msgid "Recently Opened"
+msgstr "Недавно Открытые"
+
+#: gaphor/ui/greeter.ui:85
+msgid "Create New Model"
+msgstr "Создать Новую Модель"
+
+#: gaphor/ui/help/shortcuts.ui:87 gaphor/ui/mainwindow.py:46
+msgid "New Model…"
+msgstr "Новая Модель…"
+
+#: gaphor/ui/help/shortcuts.ui:111 gaphor/ui/mainwindow.py:52
+msgid "Save As…"
+msgstr "Сохранить Как…"
+
+#: gaphor/ui/mainwindow.py:53
+msgid "Export"
+msgstr "Экспортировать"
+
+#: gaphor/ui/mainwindow.py:57
+msgid "Tools"
+msgstr "Инструменты"
+
+#: gaphor/ui/mainwindow.py:233
+msgid "Press F11 to exit Fullscreen"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:288
+msgid "Profile: {name}"
+msgstr "Профиль: {name}"
+
+#: gaphor/ui/mainwindow.ui:63
+msgid "New diagram menu"
+msgstr "Новое меню диаграммы"
+
+#: gaphor/ui/mainwindow.ui:71
+msgid "Open application menu"
+msgstr "Открыть меню приложения"
+
+#: gaphor/ui/help/shortcuts.ui:38 gaphor/ui/mainwindow.ui:78
+msgid "Toggle Property Editor"
+msgstr "Переключить редактор свойств"
+
+#: gaphor/ui/modelbrowser.py:182
+msgid "{name} package"
+msgstr "Пакет {name}"
+
+#: gaphor/ui/modelbrowser.py:184
+msgid "New package"
+msgstr "Новый пакет"
+
+#: gaphor/ui/modelbrowser.py:376 gaphor/ui/modelbrowser.py:587
+msgid "New _Package"
+msgstr "Новый _Пакет"
+
+#: gaphor/ui/modelbrowser.py:576
+msgid "_Open"
+msgstr "_Открыть"
+
+#: gaphor/ui/modelbrowser.py:576
+msgid "Add to diagram"
+msgstr "Добавить к диаграмме"
+
+#: gaphor/ui/modelbrowser.py:579
+msgid "_Rename"
+msgstr "_Переименовать"
+
+#: gaphor/ui/modelbrowser.py:584
+msgid "New _Diagram"
+msgstr "Новая _Диаграмма"
+
+#: gaphor/ui/modelbrowser.py:591
+msgid "De_lete"
+msgstr "_Удалить"
+
+#: gaphor/ui/modelbrowser.py:601
+msgid "Show in “{diagram}”"
+msgstr "Показать в “{diagram}”"
+
+#: gaphor/ui/modelbrowser.py:627
+msgid "New Generic Diagram"
+msgstr "Новая Общая Диаграмма"
+
+#: gaphor/ui/tests/test_treemodel.py:200 gaphor/ui/treemodel.py:63
+msgid "<Relationships>"
+msgstr "<Отношения>"
+
+#: gaphor/ui/help/about.ui:13
+#, fuzzy
+msgid ""
+"Copyright © 2001-2023 Arjan J. Molenaar and Dan Yeaw.\n"
+"\n"
+"UML, SysML, and RAAML are either registered trademarks or trademarks of "
+"Object Management Group, Inc. in the United States and/or other "
+"countries."
+msgstr ""
+"Авторское право © 2001-2022 Arjan J. Molenaar и Dan Yeaw.\n"
+"\n"
+"UML, SysML и RAAML являются либо зарегистрированными товарными знаками, "
+"либо товарными знаками Object Management Group, Inc. в Соединенных Штатах"
+" и/или других странах."
+
+#: gaphor/ui/help/about.ui:21
+msgid ""
+"Licensed under the Apache License, Version 2.0 (the \"License\"); you may"
+" not use this application except in compliance with the License. You may "
+"obtain a copy of the License at\n"
+"\n"
+"    http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"Unless required by applicable law or agreed to in writing, software "
+"distributed under the License is distributed on an \"AS IS\" BASIS, "
+"WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. "
+"See the License for the specific language governing permissions and "
+"limitations under the License."
+msgstr ""
+"Лицензирован по лицензии Apache версии 2.0 (далее \"Лицензия\"); вы не "
+"имеете права использовать это приложение, кроме как в соответствии с "
+"лицензией. Вы можете получить копию лицензии по адресу\n"
+"\n"
+"    http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"Если это не требуется применимым законодательством или не согласовано в "
+"письменной форме, программное обеспечение, распространяемое по Лицензии, "
+"распространяется по ПРИНЦИПУ \"КАК ЕСТЬ\", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ ИЛИ "
+"УСЛОВИЙ, явных или подразумеваемых. Смотрите Лицензию для конкретного "
+"языка, регулирующего разрешения и ограничения в соответствии с лицензией."
+
+#: gaphor/ui/help/shortcuts.ui:22
+msgid "Rename"
+msgstr "Переименовать"
+
+#: gaphor/ui/help/shortcuts.ui:30
+msgid "Search"
+msgstr "Поиск"
+
+#: gaphor/ui/help/shortcuts.ui:46
+msgid "Close Diagram"
+msgstr "Закрыть Диаграмму"
+
+#: gaphor/ui/help/shortcuts.ui:62
+msgid "Toggle Fullscreen"
+msgstr ""
+
+#: gaphor/ui/help/shortcuts.ui:70
+msgid "Quit Gaphor"
+msgstr "Выйти из Gaphor"
+
+#: gaphor/ui/help/shortcuts.ui:81
+msgid "Files"
+msgstr "Файлы"
+
+#: gaphor/ui/help/shortcuts.ui:95
+msgid "Open a Model…"
+msgstr "Открыть Модель…"
+
+#: gaphor/ui/help/shortcuts.ui:123
+msgid "Undo and Redo"
+msgstr "Отменить и Повторить"
+
+#: gaphor/ui/help/shortcuts.ui:148
+msgid "Zoom"
+msgstr "Масштабирование"
+
+#: gaphor/ui/help/shortcuts.ui:180
+msgid "Selections"
+msgstr "Выделение"
+
+#: gaphor/ui/help/shortcuts.ui:186
+msgid "Select All"
+msgstr "Выделить Всё"
+
+#: gaphor/ui/help/shortcuts.ui:194
+msgid "Deselect All"
+msgstr "Отменить Выделение"
+
+#: gaphor/ui/help/shortcuts.ui:205
+msgid "Copy and Paste"
+msgstr "Копирование и Вставка"
+
+#: gaphor/ui/help/shortcuts.ui:211
+msgid "Copy"
+msgstr "Копировать"
+
+#: gaphor/ui/help/shortcuts.ui:219
+msgid "Cut"
+msgstr "Вырезать"
+
+#: gaphor/ui/help/shortcuts.ui:227
+msgid "Paste (link defining elements)"
+msgstr "Вставить (ссылки на определяющие элементы)"
+
+#: gaphor/ui/help/shortcuts.ui:235
+msgid "Paste (copy defining elements)"
+msgstr "Вставить (копировать определяющие элементы)"
+
+#: gaphor/ui/modelmerge/organize.py:134
+#, fuzzy
+msgid "Update diagram “{name}”"
+msgstr "Новое меню диаграммы"
+
+#: gaphor/ui/modelmerge/organize.py:165 gaphor/ui/modelmerge/organize.py:307
+msgid "Update element “{name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:169
+msgid "Update element of type “{type}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:245
+msgid "Update presentation “{type}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:271
+msgid "Add presentation of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:275
+msgid "Remove presentation of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:280
+msgid "Update presentation “{name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:282
+msgid "Update presentation of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:289
+msgid "Add {type} “{name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:293
+msgid "Add element of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:299
+#, fuzzy
+msgid "Remove element “{name}”"
+msgstr "Удалять Неиспользуемые Элементы"
+
+#: gaphor/ui/modelmerge/organize.py:301
+msgid "Remove element of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:309
+msgid "Update element of type {type}"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:316
+msgid "Add relation “{name}” to “{ref_name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:318
+msgid "Remove relation “{name}” to “{ref_name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:320
+msgid "Update relation “{name}” to “{ref_name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:327
+msgid "Add relation “{name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:329
+msgid "Remove relation “{name}”"
+msgstr ""
+
+#: gaphor/ui/modelmerge/organize.py:331
+msgid "Update relation “{name}”"
+msgstr ""
+

@@ -1,0 +1,14 @@
+packaging:
+  - _packaging/**/*
+translation:
+  - po/*
+  - docs/locale/**/*
+documentation:
+  - docs/*.md
+  - docs/*.rst
+  - '*.md'
+python:
+  - gaphor/**/*.py
+skip-changelog:
+  - .pre-commit-config.yaml
+  - .all-contributorsrc
